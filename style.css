@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: cornflowerblue;
+}
+.subcontainer{
+    height: 500px;
+    width: 400px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 4px solid white;
+    border-radius: 9px;
+}
+.searchbar{
+    height: 60px;
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.search{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border: 2px solid whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+}
+#searchtext{
+    height: 40px;
+    width: 250px;
+    font-size: 15px;
+    padding: 3px;
+    
+}
+.display{
+    height: 200px;
+    width: 250px;
+}
+.temp{
+    height: 100px;
+    width: 150px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.status{
+    height: 30px;
+    width: 300px;
+    font-size: 24px;
+    text-align: center;
+}
+.humid{
+    height: 80px;
+    width: 340px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.info{
+    height: 70px;
+    width: 110px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.error{
+    height: 30px;
+    width: 300px;
+    margin: 15px;
+    background-color: lightcoral;
+    border: 4px solid red;
+    border-radius: 4px;
+    display: none;
+    text-align: center;
+}
