@@ -1,4 +1,4 @@
-# Frontend Weather Web App
+# Frontend Weather Web App 
 
 This is a frontend web app that uses vanilla JavaScript, HTML, and CSS to fetch real-time weather information for any location in the world, using the OpenWeather API. The app is designed with a clean, modern interface and utilizes the power of async/await to handle API calls.
 
@@ -17,3 +17,7 @@ To use this app, simply enter the name of the location you want to check the wea
 
 # Credits
 This app was created by me as a personal project to explore frontend web development. The code is open source and can be freely used and modified. Feel free to reach out to me if you have any questions or feedback.
+
+
+https://user-images.githubusercontent.com/87498970/219695425-6a48f7fc-8f1c-4885-a9da-60187a904ad3.mp4
+
