@@ -23,7 +23,6 @@ async function getweather(searchval) {
     else {
         document.querySelector(".error").style.display = "none"
         celsius.innerHTML = `${data.current.temp_c} &#8451 `
-        document.querySelector(".display").setAttribute("src", data.current.condition.icon)
         status1.textContent = `${data.current.condition.text}`
         windspeed.textContent = `Windspeed ${data.current.wind_kph}Kmph`
         humidity.textContent = `Humidity ${data.current.humidity}%`
