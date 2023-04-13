@@ -8,7 +8,7 @@ let status1 = document.querySelector(".status")
 let windspeed = document.querySelector("#speed")
 let humidity = document.querySelector("#humiditynum")
 async function getweather(searchval) {
-    let getdata = fetch(`https://api.weatherapi.com/v1/current.json?key=${apikey}&q=${searchval}&aqi=no`);
+    let getdata = fetch(`https://api.weatherapi.com/v1/current.json?key="e174e1c22a6530182c2fd557758f090d"&q=${searchval}&aqi=no`);
     let get = await getdata
     let data = await get.json()
 
